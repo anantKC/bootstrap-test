@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@200&family=Roboto+Slab:wght@300&display=swap');
+body {
+    margin:0;
+    padding:0;
+}
+.navbar {
+    background-color:#000;
+}
+nav {
+    height:100px;
+}
+.navbar-nav {
+margin:auto;
+}
+.nav-link {
+    margin:10px 25px;
+    color:#fff;
+    font-family: "Roboto Slab", serif;
+}
+.nav-link:hover {
+    color:yellow;
+}
+    
+
+.navbar-brand{
+    color:#fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family:"roboto slab", serif;
+}
+.navbar-brand:hover {
+    color:yellow;
+}
+
+.container-fluid{
+    margin: auto;
+    background-image: url("save-eagles.jpg");
+    width: 1920px;
+    height:1080px;
+    opacity: 0.75;
+}
+
+.main-logo{
+    display: block;
+    width: 100%;
+    height:700px;
+    padding-top:120px;
+    text-align: center;
+}
+
+.logo-content{
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+.info{
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+    
+
+}
+input{
+    border: 3px solid grey;
+    border-radius: 8px;
+}
+
+.learn-more{
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 400px;
+}
+.info-1{
+    background-color: red;
+    width: 33.33%;
+}
+
+.info-2{
+    background-color: orangered;
+    width: 33.33%;
+}
+
+.info-3{
+    width: 33.33%;
+    background-color: red;
+}
+
+.details{
+    margin: 50px;
+    width: 520px;
+    padding: 20px;
+    height: 300px;
+    border: 3px solid white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    height: 5px;
+  background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    white 2px,
+    white 3px,
+    );
+}
+
+.mission-section{
+    background-image: url("eagle.jpg");
+    height: 1280px;
+    background-size: cover;
+    position: relative;
+}
+
+.mission-content{
+    padding: 50px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+    width: 25em;
+}
+
+.mission-section .waves{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+}
+
+
+.help-header{
+    text-align: center;
+    color:black;
+    font-family: "Cedarville Cursive", cursive;
+    margin-bottom: 50px;
+}
+
+.help-content{
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.help-topic{
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
